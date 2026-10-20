@@ -8,7 +8,7 @@ cask "hidenotch" do
   homepage "https://github.com/niklasravnsborg/HideNotch"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "HideNotch.app"
 
